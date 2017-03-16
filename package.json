@@ -1,0 +1,15 @@
+{
+  "name": "paginator-js",
+  "version": "1.0.0",
+  "description": "Simple pagination using Pure JS",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "pagination",
+    "javascript"
+  ],
+  "author": "Rohit Sharma",
+  "license": "MIT"
+}
