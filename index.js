@@ -13,7 +13,7 @@ Array.prototype.paginate = function(pageNumber, itemsPerPage){
 	}
 
 	for(loopCount = start; loopCount < end; loopCount++){
-		result.data.push(this[loopCount])
+		this[loopCount] && result.data.push(this[loopCount]);
 	}
 
 	if(loopCount == this.length){
